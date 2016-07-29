@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab name="cornfield_sm">
+  <size x="12" y="4" z="12"/>
+  <blocks>
+    <block id="0" name="air" count="283"/>
+    <block id="3" name="dirt" count="144"/>
+    <block id="906" name="grownUpCornTop2" count="14"/>
+    <block id="903" name="plantedCornStalk1" count="30"/>
+    <block id="904" name="plantedCornStalk2Harvest" count="47"/>
+    <block id="905" name="plantedCornTop3Harvest" count="58"/>
+  </blocks>
+</prefab>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab name="potassium_nitrate_form">
+  <size x="4" y="1" z="6"/>
+  <blocks>
+    <block id="0" name="air" count="21"/>
+    <block id="6" name="potassiumNitrate" count="3"/>
+  </blocks>
+</prefab>
