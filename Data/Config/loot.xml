@@ -248,11 +248,6 @@
     <item name="qt_raphael" count="1"/>
   </lootgroup>
   <lootgroup name="ammo" count="1,3">
-    <item name="shotgunShell" count="1,10"/>
-    <item name="9mmBullet" count="1,20"/>
-    <item name="10mmBullet" count="1,20"/>
-    <item name="762mmBullet" count="1,20"/>
-    <item name="44MagBullet" count="1,12" prob="0.1"/>
     <item name="steelArrow" count="1,12"/>
   </lootgroup>
   <lootgroup name="tshirtAll">
@@ -322,12 +317,6 @@
     <item name="blackCowboyHat"/>
   </lootgroup>
   <lootgroup name="hazmatGear">
-    <item name="hazmatBoots"/>
-    <item name="hazmatPants"/>
-    <item name="hazmatShirt"/>
-    <item name="hazmatGloves"/>
-    <item name="hazmatMask"/>
-    <item name="militaryFiber" count="1,5" prob="2"/>
   </lootgroup>
   <lootgroup name="rottenFood">
     <item name="rottingFlesh"/>
@@ -335,8 +324,6 @@
     <item name="moldyBread"/>
   </lootgroup>
   <lootgroup name="pistol+ammo" count="all">
-    <item name="9mmBullet" count="1,10"/>
-    <item name="gunPistol" count="1"/>
   </lootgroup>
   <lootgroup name="toiletLoot" count="1">
     <item group="pistol+ammo" count="1" prob="0.05"/>
@@ -344,79 +331,29 @@
     <item name="turd" count="1,2" prob="0.3"/>
   </lootgroup>
   <lootgroup name="shotguns">
-    <item name="gunSawedOffPumpShotgun"/>
-    <item name="gunPumpShotgun" prob="0.25"/>
   </lootgroup>
   <lootgroup name="shotgun+ammo" count="all">
     <item group="shotguns"/>
-    <item name="shotgunShell" count="1,6"/>
   </lootgroup>
   <lootgroup name="pumpshotgun+ammo" count="all">
-    <item name="gunPumpShotgun"/>
-    <item name="shotgunShell" count="1,6"/>
   </lootgroup>
   <lootgroup name="mp5+ammo" count="all">
-    <item name="gunMP5"/>
-    <item name="10mmBullet" count="1,20"/>
   </lootgroup>
   <lootgroup name="huntingRifle+ammo" count="all">
-    <item name="gunHuntingRifle"/>
-    <item name="762mmBullet" count="1,10"/>
   </lootgroup>
   <lootgroup name="trophyGroup" count="1">
     <item name="trophy"/>
     <item name="trophy2"/>
   </lootgroup>
   <lootgroup name="sniperRifle+ammo" count="all">
-    <item name="gunSniperRifle"/>
-    <item name="762mmBullet" count="1,10"/>
   </lootgroup>
   <lootgroup name="magnumparts">
-    <item name="parts44Magnum_cylinder"/>
-    <item name="parts44Magnum_frame"/>
-    <item name="parts44Magnum_grip"/>
-    <item name="parts44Magnum_parts"/>
   </lootgroup>
   <lootgroup name="commonWeaponParts">
-    <item name="partsPistol_barrel"/>
-    <item name="partsPistol_parts"/>
-    <item name="partsPistol_receiver"/>
-    <item name="partsPistol_grip"/>
-    <item name="partsPumpShotgun_barrel"/>
-    <item name="partsPumpShotgun_parts"/>
-    <item name="partsPumpShotgun_barrelShort"/>
-    <item name="partsPumpShotgun_stockShort"/>
-    <item name="partsPumpShotgun_stock"/>
-    <item name="partsPumpShotgun_receiver"/>
-    <item name="partsHuntingRifle_barrel"/>
-    <item name="partsHuntingRifle_stock"/>
-    <item name="partsHuntingRifle_receiver"/>
-    <item name="partsHuntingRifle_parts"/>
   </lootgroup>
   <lootgroup name="militaryWeaponParts">
-    <item name="partsMP5_barrel"/>
-    <item name="partsMP5_stock"/>
-    <item name="partsMP5_receiver"/>
-    <item name="partsMP5_parts"/>
-    <item name="partsAK47_barrel"/>
-    <item name="partsAK47_stock"/>
-    <item name="partsAK47_receiver"/>
-    <item name="partsAK47_parts"/>
-    <item name="partsSniperRifle_barrel"/>
-    <item name="partsSniperRifle_stock"/>
-    <item name="partsSniperRifle_receiver"/>
-    <item name="partsSniperRifle_parts"/>
-    <item name="partsRocketLauncher_barrel"/>
-    <item name="partsRocketLauncher_stock"/>
-    <item name="partsRocketLauncher_receiver"/>
-    <item name="partsRocketLauncher_parts"/>
-    <item name="smgSchematics"/>
-    <item name="ak47Schematic"/>
-    <item name="rocketLauncherSchematic"/>
   </lootgroup>
   <lootgroup name="rocketLauncher+ammo" count="all">
-    <item name="gunRocketLauncher"/>
-    <item name="rocket" count="4"/>
   </lootgroup>
   <lootgroup name="guns+ammo">
     <item group="commonWeaponParts"/>
@@ -438,9 +375,6 @@
     <item name="crossbowBolt" count="40"/>
   </lootgroup>
   <lootgroup name="rareBooks" count="1">
-    <item name="ak47Schematic"/>
-    <item name="augerSchematic"/>
-    <item name="chainsawSchematic"/>
     <item name="clubSpikedSchematic"/>
     <item name="explodingCrossbowBoltSchematic"/>
     <item name="firstAidKitSchematic"/>
@@ -451,14 +385,7 @@
     <item name="ironGlovesSchematic"/>
     <item name="ironHelmetSchematic"/>
     <item name="ironLegArmorSchematic"/>
-    <item name="macDyverBook" prob="1.5"/>
-    <item name="minibikesForDumbshits"/>
-    <item name="rocketLauncherSchematic"/>
-    <item name="shotgunSlugSchematic"/>
     <item name="sledgehammerSchematic"/>
-    <item name="smgSchematics"/>
-    <item name="sniperRifleSchematic"/>
-    <item name="theEnforcerMagazine"/>
     <item group="questChallenge" count="1"/>
   </lootgroup>
   <lootgroup name="herbalRecipes" count="1">
@@ -472,15 +399,11 @@
     <item name="clawHammerSchematic"/>
     <item name="crossbowSchematic"/>
     <item name="huntingKnifeBook"/>
-    <item name="huntingRifleSchematic"/>
     <item name="leatherBootsSchematic"/>
     <item name="leatherGlovesSchematic"/>
     <item name="leatherHoodSchematic"/>
     <item name="leatherJacketSchematic"/>
     <item name="leatherPantsSchematic"/>
-    <item name="pistolBook"/>
-    <item name="pumpShotgunSchematic"/>
-    <item name="sawedoffPumpShotgunSchematic"/>
     <item name="wrenchSchematic"/>
   </lootgroup>
   <lootgroup name="books" count="1">
@@ -494,10 +417,6 @@
     <item group="rocketLauncher+ammo" prob="0.01"/>
   </lootgroup>
   <lootgroup name="militaryammo">
-    <item name="10mmBullet" count="10,40"/>
-    <item name="762mmBullet" count="5,30"/>
-    <item name="shotgunSlug" count="3,7"/>
-    <item name="rocket" count="1,4"/>
   </lootgroup>
   <lootgroup name="cannedfood">
     <item name="canBeef"/>
@@ -574,7 +493,6 @@
     <item name="glue" count="1"/>
     <item name="nail" count="1"/>
     <item name="casinoCoin" count="1,5"/>
-    <item name="bulletCasing" count="1,10"/>
     <item name="feather" count="1,3"/>
     <item name="ductTape" count="1,3"/>
     <item group="rottenFood" count="1"/>
@@ -585,24 +503,14 @@
     <item name="femur" count="1,2" prob="0.05"/>
   </lootgroup>
   <lootgroup name="rareAutomotive">
-    <item name="smallEngine"/>
-    <item name="partsChainsaw_blade"/>
-    <item name="partsAuger_blade"/>
-    <item name="partsHandlebars"/>
-    <item name="minibikeWheels"/>
   </lootgroup>
   <lootgroup name="automotive">
     <item name="gasCan" count="50,300"/>
-    <item name="radiator"/>
-    <item name="headlight"/>
     <item name="scrapCable"/>
-    <item name="hubcap"/>
     <item name="airFilter"/>
-    <item name="carBattery"/>
     <item name="oil" count="1,4"/>
     <item name="spring" count="1,4"/>
     <item group="rareAutomotive"/>
-    <item name="flashlight02" prob="0.05"/>
   </lootgroup>
   <lootgroup name="hats">
     <item group="cowboyHatAll"/>
@@ -683,15 +591,8 @@
     <item group="metalpipe_scrap"/>
   </lootgroup>
   <lootgroup name="rareTools" count="1">
-    <item name="chainsaw"/>
-    <item name="partsChainsaw_parts"/>
-    <item name="partsAuger_parts"/>
-    <item name="partsAuger_blade"/>
-    <item name="partsChainsaw_blade"/>
     <item name="clawHammer"/>
     <item name="sledgehammer"/>
-    <item name="nailgun"/>
-    <item name="smallEngine"/>
     <item name="pickaxeSteel"/>
     <item name="fireaxeSteel"/>
     <item name="shovelSteel"/>
@@ -752,11 +653,8 @@
     <item group="rareMedicine"/>
   </lootgroup>
   <lootgroup name="sportingGoods" count="1">
-    <item name="flashlight02"/>
     <item name="huntingKnife"/>
     <item name="gunPowder" count="20,50"/>
-    <item name="bulletCasing" count="20,50"/>
-    <item name="bulletTip" count="20,50"/>
     <item name="steelArrowHead"/>
     <item name="cookingGrill"/>
     <item name="cookingPot"/>
@@ -771,7 +669,6 @@
     <item group="tshirtAll"/>
     <item name="goggles"/>
     <item name="shades"/>
-    <item name="nightvisionGoggles"/>
     <item name="ballCap"/>
     <item name="wornBoots"/>
     <item name="footballHelmet"/>
@@ -880,7 +777,6 @@
     <item group="shotgun+ammo"/>
     <item name="shamSandwich" count="1,5"/>
     <item group="ammo"/>
-    <item name="flashlight02" prob="0.5"/>
     <item name="militaryVest" prob="0.2"/>
     <item name="militaryFiber" count="1,4" prob="0.04"/>
   </lootcontainer>
@@ -919,7 +815,6 @@
     <item name="bottledWater" count="1,2" prob="0.15"/>
     <item group="cannedfood" prob=".5"/>
     <item group="junk"/>
-    <item name="flashlight02" prob="0.1"/>
     <item group="medicine" prob="0.1"/>
     <item group="guns+ammo" prob="0.01"/>
     <item group="melee" prob="0.015"/>

@@ -42,26 +42,6 @@
   <recipe name="yuccaFibers" count="1" scrapable="False" tooltip="ttScrapMetalBrass">
     <wildcard_forge_category/>
   </recipe>
-  <recipe name="10mmBullet" count="1" scrapable="True">
-    <ingredient name="bulletCasing" count="1"/>
-    <ingredient name="gunPowder" count="2"/>
-    <ingredient name="bulletTip" count="1"/>
-  </recipe>
-  <recipe name="44MagBullet" count="1" scrapable="False">
-    <ingredient name="bulletCasing" count="1"/>
-    <ingredient name="gunPowder" count="3"/>
-    <ingredient name="bulletTip" count="1"/>
-  </recipe>
-  <recipe name="762mmBullet" count="1" scrapable="True">
-    <ingredient name="bulletCasing" count="1"/>
-    <ingredient name="gunPowder" count="3"/>
-    <ingredient name="bulletTip" count="1"/>
-  </recipe>
-  <recipe name="9mmBullet" count="1" scrapable="True">
-    <ingredient name="bulletCasing" count="1"/>
-    <ingredient name="gunPowder" count="1"/>
-    <ingredient name="bulletTip" count="1"/>
-  </recipe>
   <recipe name="blunderbussAmmo" count="1" scrapable="False">
     <ingredient name="paper" count="1"/>
     <ingredient name="gunPowder" count="1"/>
@@ -221,12 +201,6 @@
     <ingredient name="rockSmall" count="17"/>
     <ingredient name="oilShale" count="20"/>
   </recipe>
-  <recipe name="auger" count="1" scrapable="False" craft_area="assembly">
-    <ingredient name="partsHandlebars" count="1"/>
-    <ingredient name="smallEngine" count="1"/>
-    <ingredient name="partsAuger_parts" count="1"/>
-    <ingredient name="partsAuger_blade" count="1"/>
-  </recipe>
   <recipe name="awningRedBlock" count="1" scrapable="False">
     <ingredient name="cloth" count="10"/>
   </recipe>
@@ -353,18 +327,6 @@
   <recipe name="bucket" count="1" scrapable="False">
     <ingredient name="forgedIron" count="7"/>
   </recipe>
-  <recipe name="buckshot" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
-    <ingredient name="unit_lead" count="2"/>
-    <ingredient name="unit_clay" count="1"/>
-  </recipe>
-  <recipe name="bulletCasing" count="1" scrapable="False" craft_area="forge" craft_tool="calipers" material_based="true">
-    <ingredient name="unit_brass" count="1"/>
-    <ingredient name="unit_clay" count="1"/>
-  </recipe>
-  <recipe name="bulletTip" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
-    <ingredient name="unit_lead" count="1"/>
-    <ingredient name="unit_clay" count="1"/>
-  </recipe>
   <recipe name="burntForestGround" count="1" scrapable="False">
     <ingredient name="fertileDirt" count="1"/>
   </recipe>
@@ -399,19 +361,6 @@
   </recipe>
   <recipe name="cement" count="1" scrapable="False" craft_area="forge" material_based="true">
     <ingredient name="unit_stone" count="5"/>
-  </recipe>
-  <recipe name="cementMixer" count="1" scrapable="False">
-    <ingredient name="forgedIron" count="25"/>
-    <ingredient name="scrapCable" count="1"/>
-    <ingredient name="spring" count="5"/>
-    <ingredient name="smallEngine" count="1"/>
-    <ingredient name="shortMetalPipe" count="4"/>
-  </recipe>
-  <recipe name="chainsaw" count="1" scrapable="False" craft_area="assembly">
-    <ingredient name="partsHandlebars" count="1"/>
-    <ingredient name="smallEngine" count="1"/>
-    <ingredient name="partsChainsaw_parts" count="1"/>
-    <ingredient name="partsChainsaw_blade" count="1"/>
   </recipe>
   <recipe name="charredMeat" count="1" scrapable="False" craft_area="campfire">
     <ingredient name="rawMeat" count="1"/>
@@ -486,21 +435,6 @@
   <recipe name="cntDeskSafe" count="1" scrapable="False">
     <ingredient name="forgedIron" count="10"/>
     <ingredient name="spring" count="2"/>
-  </recipe>
-  <recipe name="cntFridge" count="1" scrapable="False">
-    <ingredient name="forgedIron" count="10"/>
-    <ingredient name="scrapCable" count="1"/>
-    <ingredient name="shortMetalPipe" count="2"/>
-  </recipe>
-  <recipe name="cntFridgeBottom" count="1" scrapable="False">
-    <ingredient name="forgedIron" count="4"/>
-    <ingredient name="scrapCable" count="1"/>
-    <ingredient name="shortMetalPipe" count="2"/>
-  </recipe>
-  <recipe name="cntFridgeTop" count="1" scrapable="False">
-    <ingredient name="forgedIron" count="4"/>
-    <ingredient name="scrapCable" count="1"/>
-    <ingredient name="shortMetalPipe" count="2"/>
   </recipe>
   <recipe name="cntGunSafe" count="1" scrapable="False">
     <ingredient name="forgedIron" count="15"/>
@@ -838,77 +772,9 @@
   <recipe name="grilledMeat" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingGrill">
     <ingredient name="rawMeat" count="1"/>
   </recipe>
-  <recipe name="gun44Magnum" count="1" scrapable="False" craft_area="assembly">
-    <ingredient name="flashlight02" count="0"/>
-    <ingredient name="parts44Magnum_frame" count="1"/>
-    <ingredient name="parts44Magnum_cylinder" count="1"/>
-    <ingredient name="parts44Magnum_parts" count="1"/>
-    <ingredient name="parts44Magnum_grip" count="1"/>
-  </recipe>
-  <recipe name="gunAK47" count="1" scrapable="False" craft_area="assembly">
-    <ingredient name="flashlight02" count="0"/>
-    <ingredient name="partsAK47_stock" count="1"/>
-    <ingredient name="partsAK47_receiver" count="1"/>
-    <ingredient name="partsAK47_barrel" count="1"/>
-    <ingredient name="partsAK47_parts" count="1"/>
-  </recipe>
-  <recipe name="gunHuntingRifle" count="1" scrapable="True" craft_area="assembly">
-    <ingredient name="flashlight02" count="0"/>
-    <ingredient name="partsHuntingRifle_barrel" count="1"/>
-    <ingredient name="partsHuntingRifle_stock" count="1"/>
-    <ingredient name="partsHuntingRifle_receiver" count="1"/>
-    <ingredient name="partsHuntingRifle_parts" count="1"/>
-  </recipe>
-  <recipe name="gunMP5" count="1" scrapable="True" craft_area="assembly">
-    <ingredient name="flashlight02" count="0"/>
-    <ingredient name="partsMP5_stock" count="1"/>
-    <ingredient name="partsMP5_receiver" count="1"/>
-    <ingredient name="partsMP5_barrel" count="1"/>
-    <ingredient name="partsMP5_parts" count="1"/>
-  </recipe>
-  <recipe name="gunPistol" count="1" scrapable="True" craft_area="assembly">
-    <ingredient name="flashlight02" count="0"/>
-    <ingredient name="partsPistol_parts" count="1"/>
-    <ingredient name="partsPistol_barrel" count="1"/>
-    <ingredient name="partsPistol_receiver" count="1"/>
-    <ingredient name="partsPistol_grip" count="1"/>
-  </recipe>
   <recipe name="gunPowder" count="1" scrapable="False">
     <ingredient name="coal" count="2"/>
     <ingredient name="potassiumNitratePowder" count="2"/>
-  </recipe>
-  <recipe name="gunPumpShotgun" count="1" scrapable="True" craft_area="assembly">
-    <ingredient name="flashlight02" count="0"/>
-    <ingredient name="partsPumpShotgun_barrel" count="1"/>
-    <ingredient name="partsPumpShotgun_receiver" count="1"/>
-    <ingredient name="partsPumpShotgun_parts" count="1"/>
-    <ingredient name="partsPumpShotgun_stock" count="1"/>
-  </recipe>
-  <recipe name="gunRocketLauncher" count="1" scrapable="True" craft_area="assembly">
-    <ingredient name="flashlight02" count="0"/>
-    <ingredient name="partsRocketLauncher_barrel" count="1"/>
-    <ingredient name="partsRocketLauncher_receiver" count="1"/>
-    <ingredient name="partsRocketLauncher_parts" count="1"/>
-    <ingredient name="partsRocketLauncher_stock" count="1"/>
-  </recipe>
-  <recipe name="gunSawedOffPumpShotgun" count="1" scrapable="True" craft_area="assembly">
-    <ingredient name="flashlight02" count="0"/>
-    <ingredient name="partsPumpShotgun_barrelShort" count="1"/>
-    <ingredient name="partsPumpShotgun_receiver" count="1"/>
-    <ingredient name="partsPumpShotgun_parts" count="1"/>
-    <ingredient name="partsPumpShotgun_stockShort" count="1"/>
-  </recipe>
-  <recipe name="gunSniperRifle" count="1" scrapable="True" craft_area="assembly">
-    <ingredient name="flashlight02" count="0"/>
-    <ingredient name="partsSniperRifle_barrel" count="1"/>
-    <ingredient name="partsSniperRifle_receiver" count="1"/>
-    <ingredient name="partsSniperRifle_stock" count="1"/>
-    <ingredient name="partsSniperRifle_parts" count="1"/>
-  </recipe>
-  <recipe name="partsHandlebars" count="1" scrapable="False">
-    <ingredient name="ductTape" count="2"/>
-    <ingredient name="leather" count="2"/>
-    <ingredient name="shortMetalPipe" count="6"/>
   </recipe>
   <recipe name="hayBaleBlock" count="1" scrapable="False">
     <ingredient name="yuccaFibers" count="10"/>
@@ -1099,28 +965,6 @@
     <ingredient name="gunPowder" count="1"/>
     <ingredient name="candyTin" count="1"/>
   </recipe>
-  <recipe name="mineHubcap" count="1" scrapable="True">
-    <ingredient name="scrapIron" count="2"/>
-    <ingredient name="gunPowder" count="2"/>
-    <ingredient name="hubcap" count="1"/>
-  </recipe>
-  <recipe name="minibikeChassis" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
-    <ingredient name="unit_iron" count="200"/>
-    <ingredient name="unit_clay" count="20"/>
-  </recipe>
-  <recipe name="minibikeHandlebars" count="1" scrapable="False">
-    <ingredient name="partsHandlebars" count="1"/>
-    <ingredient name="ductTape" count="2"/>
-    <ingredient name="scrapCable" count="1"/>
-    <ingredient name="headlight" count="1"/>
-    <ingredient name="shortMetalPipe" count="2"/>
-  </recipe>
-  <recipe name="minibikeSeat" count="1" scrapable="False">
-    <ingredient name="ductTape" count="4"/>
-    <ingredient name="leather" count="7"/>
-    <ingredient name="plantedCotton3Harvest" count="3"/>
-    <ingredient name="shortMetalPipe" count="4"/>
-  </recipe>
   <recipe name="nail" count="1" scrapable="False" craft_area="forge" craft_tool="anvil" material_based="true">
     <ingredient name="unit_iron" count="1"/>
     <ingredient name="unit_clay" count="1"/>
@@ -1227,20 +1071,6 @@
     <ingredient name="oil" count="1"/>
     <ingredient name="cloth" count="1"/>
     <ingredient name="ductTape" count="1"/>
-  </recipe>
-  <recipe name="rocket" count="1" scrapable="False">
-    <ingredient name="rocketTip" count="1"/>
-    <ingredient name="gunPowder" count="50"/>
-    <ingredient name="ductTape" count="3"/>
-    <ingredient name="rocketCasing" count="1"/>
-  </recipe>
-  <recipe name="rocketCasing" count="1" scrapable="False" craft_area="forge" craft_tool="toolAndDieSet" material_based="true">
-    <ingredient name="unit_iron" count="50"/>
-    <ingredient name="unit_clay" count="30"/>
-  </recipe>
-  <recipe name="rocketTip" count="1" scrapable="False" craft_area="forge" craft_tool="toolAndDieSet" material_based="true">
-    <ingredient name="unit_lead" count="50"/>
-    <ingredient name="unit_clay" count="30"/>
   </recipe>
   <recipe name="crushedSand" count="1" scrapable="False" craft_area="cementMixer">
     <ingredient name="rockSmall" count="1"/>
@@ -1375,11 +1205,6 @@
   <recipe name="splint" count="1" scrapable="False">
     <ingredient name="cloth" count="2"/>
     <ingredient name="wood" count="2"/>
-  </recipe>
-  <recipe name="spotlight" count="1" scrapable="False">
-    <ingredient name="headlight" count="1"/>
-    <ingredient name="carBattery" count="1"/>
-    <ingredient name="scrapIron" count="10"/>
   </recipe>
   <recipe name="steelArrow" count="1" scrapable="False">
     <ingredient name="steelArrowHead" count="1"/>
