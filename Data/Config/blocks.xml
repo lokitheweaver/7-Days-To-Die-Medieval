@@ -11075,6 +11075,87 @@
     <property name="RotationAllowed" value="pivotOnFloor"/>
     <drop event="Destroy" count="0"/>
   </block>
+  <block id="1100" name="Common Cabinet">
+	<property name="Extends" value="cntCabinet" />
+    <property name="Shape" value="Half" />
+    <property name="Place" value="TowardsPlacer90" />
+    <property name="Texture" value="81,84,82,82,82,82" />
+</block>
+
+<block id="1098" name="dotsGreenShinglesBlockWood">
+	<property name="CustomIcon" value="dotsGreenShinglesBlock" />
+	<property name="Extends" value="woodBlock" />
+	<property name="Texture" value="192,241,241,241,241,241" />
+</block>
+		
+<block id="1055" name="dotsGreenShinglesCNRInsideWood">
+	<property name="CustomIcon" value="dotsGreenShinglesCNRInside" />
+	<property name="Extends" value="woodCNRInside" />
+	<property name="Texture" value="192,241,241,241,241,241" />
+</block>
+<block id="1780" name="woodCNRRound">
+	<property name="Extends" value="woodNoUpgradeMaster" />
+	<property name="Shape" value="New" />
+	<property name="Model" value="corner_round1m" />
+	<property name="Place" value="TowardsPlacerInverted" />
+	<property name="Texture" value="241" />
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="rWoodCNRRound" />
+		<property name="Item" value="wood" />
+		<property name="ItemCount" value="10" />
+		<property name="UpgradeHitCount" value="4" />
+	</property>
+</block>
+<block id="1781" name="rWoodCNRRound">
+	<property name="Extends" value="woodNoUpgradeMaster" />
+	<property name="Shape" value="New" />
+	<property name="Model" value="corner_round1m" />
+	<property name="Place" value="TowardsPlacerInverted" />
+	<property name="Material" value="wood+wood" />
+	<property name="Texture" value="379" />
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="rWoodMetalCNRRound" />
+		<property name="Item" value="scrapIron" />
+		<property name="ItemCount" value="4" />
+		<property name="UpgradeHitCount" value="4" />
+	</property>
+	<property name="DowngradeBlock" value="woodCNRRound" />
+</block>
+<block id="1782" name="rWoodMetalCNRRound">
+	<property name="Extends" value="woodNoUpgradeMaster" />
+	<property name="Shape" value="New" />
+	<property name="Model" value="corner_round1m" />
+	<property name="Place" value="TowardsPlacerInverted" />
+	<property name="Material" value="metal" />
+	<property name="Texture" value="380" />
+	<property name="DowngradeBlock" value="rWoodCNRRound" />
+</block>
+<block id="1783" name="cobblestoneCNRRound">
+	<property name="Extends" value="brickNoUpgradeMaster" />
+	<property name="Shape" value="New" />
+	<property name="Model" value="corner_round1m" />
+	<property name="Place" value="TowardsPlacerInverted" />
+	<property name="Texture" value="26" />
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="flagstoneCNRRound" />
+		<property name="Item" value="concreteMix" />
+		<property name="ItemCount" value="10" />
+		<property name="UpgradeHitCount" value="4" />
+	</property>
+	<property name="DowngradeBlock" value="woodCNRRound" />
+</block>
+<block id="1784" name="flagstoneCNRRound">
+	<property name="Extends" value="brickNoUpgradeMaster" />
+	<property name="Shape" value="New" />
+	<property name="Model" value="corner_round1m" />
+	<property name="Place" value="TowardsPlacerInverted" />
+	<property name="Texture" value="226" />
+	<property name="DowngradeBlock" value="cobblestoneCNRRound" />
+</block>
+<block id="1785" name="Blue Wood CNRRound">
+	<property name="Extends" value="woodCNRRound" />
+	<property name="Texture" value="50" />
+</block>
   <block id="526" name="Thatch Plate">
     <property name="Extends" value="woodPlate"/>
     <property name="Texture" value="196"/>
