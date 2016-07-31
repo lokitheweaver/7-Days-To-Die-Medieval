@@ -11082,6 +11082,12 @@
     <property name="Texture" value="81,84,82,82,82,82" />
 </block>
 
+<block id="1101" name="commoncabinetbottom">
+	<property name="Extends" value="cabinetOldFiller2Block" />
+    <property name="Shape" value="Half" />
+    <property name="Place" value="TowardsPlacer90" />
+</block>
+
 <block id="1098" name="dotsGreenShinglesBlockWood">
 	<property name="CustomIcon" value="dotsGreenShinglesBlock" />
 	<property name="Extends" value="woodBlock" />
