@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+    <property name="Zoning" value="CityBlock" />
+    <property name="CopyAirBlocks" value="True" />
+    <property name="AllowTopSoilDecorations" value="True" />
+    <property name="YOffset" value="-6" />
+    <property name="Condition" value="Normal" />
+    <property name="Age" value="Normal" />
+    <property name="RotationToFaceNorth" value="0" />
+    <property name="StaticSpawner.Class" value="SpawnExtraSmall" />
+    <property name="AllowedTownships" value="city,town,rural,wilderness" />
+    <property name="AllowedBiomes" value="burnt_forest,snow,plains,pine_forest,forest,desert,wasteland_hub,wasteland" />
+</prefab>
