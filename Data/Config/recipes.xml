@@ -418,9 +418,22 @@
   <recipe name="clubWood" count="1" scrapable="False">
     <ingredient name="wood" count="5"/>
   </recipe>
+  <recipe name="cntBookcase" count="1" scrapable="False">
+    <ingredient name="wood" count="15"/>
+  </recipe>
+ <recipe name="Elegant Bookcase" count="1" scrapable="False">
+    <ingredient name="wood" count="25"/>
+  </recipe>
   <recipe name="cntCabinet" count="1" scrapable="False">
     <ingredient name="cobblestones" count="5"/>
     <ingredient name="cntCabinetTop" count="1"/>
+  </recipe>
+    <recipe name="Common Cabinet" count="1" scrapable="False">
+    <ingredient name="cobblestones" count="5"/>
+    <ingredient name="commoncabinetbottom" count="1"/>
+  </recipe>
+      <recipe name="commoncabinetbottom" count="1" scrapable="False">
+    <ingredient name="wood" count="10"/>
   </recipe>
   <recipe name="cntCabinetTop" count="1" scrapable="False">
     <ingredient name="wood" count="10"/>
@@ -635,6 +648,13 @@
   <recipe name="eggboiled" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingPot">
     <ingredient name="egg" count="1"/>
     <ingredient name="bottledWater" count="1"/>
+  </recipe>
+  <recipe name="Elegant Cabinet" count="1" scrapable="False">
+    <ingredient name="wood" count="5"/>
+    <ingredient name="ElegantCabinetBottom" count="1"/>
+  </recipe>
+  <recipe name="ElegantCabinetBottom" count="1" scrapable="False">
+    <ingredient name="wood" count="15"/>
   </recipe>
   <recipe name="emptyJar" count="1" scrapable="False" craft_area="forge" material_based="true">
     <ingredient name="unit_glass" count="10"/>
@@ -864,6 +884,10 @@
   <recipe name="leatherPants" count="1" scrapable="False">
     <ingredient name="leather" count="10"/>
   </recipe>
+  <recipe name="LogBlock Thatch" count="1" scrapable="False" >
+    <ingredient name="yuccaFibers" count="6"/>
+    <ingredient name="wood" count="2"/>    
+  </recipe>  
   <recipe name="logCabinBlock" count="1" scrapable="False">
     <ingredient name="wood" count="20"/>
   </recipe>
@@ -1241,6 +1265,48 @@
   <recipe name="tallow" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingPot">
     <ingredient name="animalFat" count="1"/>
   </recipe>
+  <recipe name="Thatch" count="1" scrapable="False" >
+    <ingredient name="yuccaFibers" count="6"/>
+    <ingredient name="wood" count="2"/>    
+  </recipe>   
+    <recipe name="Thatch Fence" count="3" scrapable="False" >
+    <ingredient name="Thatch" count="1"/>
+  </recipe>    
+  <recipe name="Thatch Fence2" count="3" scrapable="False" >
+    <ingredient name="Thatch" count="1"/>
+  </recipe>
+  <recipe name="Thatch Halfblock" count="1" scrapable="False" >
+    <ingredient name="yuccaFibers" count="3"/>
+    <ingredient name="wood" count="1"/>    
+  </recipe>   
+  <recipe name="Thatch InnerCorner" count="1" scrapable="False" >
+    <ingredient name="yuccaFibers" count="3"/>
+    <ingredient name="wood" count="1"/>    
+  </recipe>         
+  <recipe name="Thatch Plate" count="1" scrapable="False" >
+    <ingredient name="yuccaFibers" count="3"/>
+    <ingredient name="wood" count="1"/>    
+  </recipe>   
+  <recipe name="Thatch Pyramid" count="1" scrapable="False" >
+    <ingredient name="yuccaFibers" count="6"/>
+    <ingredient name="wood" count="2"/>   
+  </recipe>  
+ <recipe name="Thatch Wedge" count="1" scrapable="False" >
+    <ingredient name="yuccaFibers" count="3"/>
+    <ingredient name="wood" count="1"/>    
+  </recipe>   
+  <recipe name="Thatch Wedge Corner" count="1" scrapable="False" >
+    <ingredient name="yuccaFibers" count="3"/>
+    <ingredient name="wood" count="1"/>    
+  </recipe>     
+  <recipe name="Thatch Wedge60 Full" count="1" scrapable="False" >
+    <ingredient name="yuccaFibers" count="3"/>
+    <ingredient name="wood" count="1"/>    
+  </recipe>  
+  <recipe name="Thatch Wedge60 Tip" count="1" scrapable="False" >
+    <ingredient name="yuccaFibers" count="3"/>
+    <ingredient name="wood" count="1"/>    
+  </recipe>   
   <recipe name="tnt" count="1" scrapable="False">
     <ingredient name="yuccaFibers" count="1"/>
     <ingredient name="gunPowder" count="50"/>
