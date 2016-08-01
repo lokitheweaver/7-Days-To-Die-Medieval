@@ -1248,6 +1248,10 @@
   <recipe name="tallow" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingPot">
     <ingredient name="animalFat" count="1"/>
   </recipe>
+  <recipe name="Thatch" count="1" scrapable="False" >
+    <ingredient name="yuccaFibers" count="5"/>
+    <ingredient name="wood" count="1"/>    
+  </recipe>   
   <recipe name="tnt" count="1" scrapable="False">
     <ingredient name="yuccaFibers" count="1"/>
     <ingredient name="gunPowder" count="50"/>
