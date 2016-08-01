@@ -11308,26 +11308,28 @@
     <property name="Shape" value="Pyramid"/>
     <property name="Texture" value="226"/>
   </block>
-  <block id="1796" name="Cobblestone Pillar">
-    <property name="Extends" value="cobblestoneMaster"/>
-    <property name="Shape" value="New"/>
-    <property name="Model" value="Pole1m"/>
-    <property name="DowngradeBlock" value="rWoodPillar100"/>
+	<block id="1796" name="Cobblestone Pillar">
+	<property name="Extends" value="cobblestoneBlock" />
+    <property name="Shape" value="New" />
+    <property name="Model" value="Pole1m" />
+	<property name="DowngradeBlock" value="rWoodPillar100" />
+	<property name="Texture" value="26" />
   </block>
-  <block id="1797" name="Cobblestone Halfblock">
-    <property name="Extends" value="cobblestoneMaster"/>
-    <property name="Shape" value="Half"/>
-    <property name="DowngradeBlock" value="woodHalf"/>
+	<block id="1797" name="Cobblestone Halfblock">
+	<property name="Extends" value="woodNoUpgradeMaster" />
+    <property name="Shape" value="Half" />
+	<property name="DowngradeBlock" value="woodHalf" />
+	<property name="Texture" value="26" />
   </block>
-  <block id="1798" name="Cobblestone Pole">
-    <property name="Extends" value="cobblestoneMaster"/>
-    <property name="Shape" value="Pole"/>
-    <property name="DowngradeBlock" value="rWoodPole"/>
+	<block id="1798" name="Cobblestone Pole">
+	<property name="Extends" value="woodNoUpgradeMaster" />
+    <property name="Shape" value="Pole" />
+	<property name="DowngradeBlock" value="rWoodPole" />
+	<property name="Texture" value="26" />
   </block>
-  <block id="1799" name="Cobblestone Plate">
-    <property name="Extends" value="cobblestoneMaster"/>
-    <property name="Shape" value="Plate"/>
-    <property name="DowngradeBlock" value="rWoodPlate"/>
+	<block id="1799" name="Cobblestone Plate">
+	<property name="Extends" value="woodPlate" />
+	<property name="Texture" value="26" />
   </block>
   <block id="789" name="Common Wardrobe">
     <property name="Extends" value="woodNoUpgradeMaster"/>
