@@ -422,6 +422,13 @@
     <ingredient name="cobblestones" count="5"/>
     <ingredient name="cntCabinetTop" count="1"/>
   </recipe>
+    <recipe name="Common Cabinet" count="1" scrapable="False">
+    <ingredient name="cobblestones" count="5"/>
+    <ingredient name="commoncabinetbottom" count="1"/>
+  </recipe>
+      <recipe name="commoncabinetbottom" count="1" scrapable="False">
+    <ingredient name="wood" count="10"/>
+  </recipe>
   <recipe name="cntCabinetTop" count="1" scrapable="False">
     <ingredient name="wood" count="10"/>
   </recipe>
