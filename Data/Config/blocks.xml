@@ -3021,7 +3021,7 @@
     <property name="Damage_received" value="15"/>
     <property name="Material" value="wood"/>
     <property name="Shape" value="Cone"/>
-    <property name="Texture" value="21,21,116,116,116,116"/>
+    <property name="Texture" value="21"/>
     <property name="FuelValue" value="240"/>
     <property name="BuffsWhenWalkedOn" value="bleeding"/>
     <property class="UpgradeBlock">
