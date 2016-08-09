@@ -10973,6 +10973,10 @@
     <drop event="Destroy" count="0"/>
   </block>
   <!-- New Blocks -->
+	<block id="422" name="Wood Eigth">
+	<property name="Extends" value="woodNoUpgradeMaster" />
+    <property name="Shape" value="Eighth" />
+  </block>
   <block id="1100" name="Common Cabinet">
     <property name="Extends" value="cntCabinet"/>
     <property name="Shape" value="Half"/>
