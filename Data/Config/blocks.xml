@@ -10973,6 +10973,17 @@
     <drop event="Destroy" count="0"/>
   </block>
   <!-- New Blocks -->
+ 	<block id="467" name="Knights Armory">
+	<property name="Extends" value="cntCabinetOldBottom" />
+    <property name="Place" value="TowardsPlacer" />
+    <property name="Class" value="Loot" />
+    <property name="Texture" value="46,81,81,46,46,46" />
+    <property name="LootList" value="3" />
+  </block>
+	<block id="422" name="Wood Eigth">
+	<property name="Extends" value="woodNoUpgradeMaster" />
+    <property name="Shape" value="Eighth" />
+  </block>
   <block id="1100" name="Common Cabinet">
     <property name="Extends" value="cntCabinet"/>
     <property name="Shape" value="Half"/>
