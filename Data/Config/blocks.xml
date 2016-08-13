@@ -11210,10 +11210,10 @@
     <property name="LootList" value="3"/>
   </block>
   <block id="660" name="ElegantCabinetBottom">
-    <property name="Extends" value="cntCabinetOldBottom"/>
+    <property name="Extends" value="woodMaster"/>
     <property name="Shape" value="Half"/>
     <property name="Place" value="TowardsPlacer90"/>
-    <property name="Texture" value="246,246,246,246,246,246"/>
+    <property name="Texture" value="246"/>
   </block>
   <block id="661" name="Armory">
     <property name="Extends" value="cntCabinetOldBottom"/>
